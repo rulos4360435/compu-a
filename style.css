@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-image: url("fondo.jpg");
+    background-size: cover;
+}
+h1{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+img{
+    height: 100px;
+    width: 100px;
+    opacity: 0.7;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+nav>ul{
+    list-style: none;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: lightblue;
+}
